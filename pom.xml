@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>rulesdemo</groupId>
+	<artifactId>rulesdemo</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<name>Rules Demo Project</name>
+
+	<description>
+    Example Implementation of a rules-based trade workflow automation platform.
+    </description>
+
+	<modules>
+		<module>subprojects/rules-api</module>
+		<module>subprojects/rules-requesthandler</module>
+		<module>subprojects/rules-dataprovider</module>
+		<module>subprojects/rules-engine</module>
+		<module>subprojects/rules-cache</module>
+		<module>subprojects/rules-ui</module>
+		<module>subprojects/rules-webframework</module>
+		<module>subprojects/rules-client</module>
+		<module>subprojects/rules-server</module>
+	</modules>
+</project> 
