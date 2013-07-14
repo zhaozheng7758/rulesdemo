@@ -9,18 +9,8 @@
 		<version>1.0.0-SNAPSHOT</version>
 		<relativePath>../..</relativePath>
 	</parent>
-
-	<artifactId>rules-cache</artifactId>
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+	
+	<artifactId>rules-model</artifactId>
+	
 </project>
 
