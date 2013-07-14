@@ -7,9 +7,10 @@
 		<groupId>rulesdemo</groupId>
 		<artifactId>rulesdemo</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../..</relativePath>
 	</parent>
 	
-	<artifactId>rules-api</artifactId>
+	<artifactId>rules-ui</artifactId>
 	
 </project>
 
