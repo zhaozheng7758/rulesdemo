@@ -15,11 +15,14 @@
     </description>
 
 	<modules>
-		<module>subprojects/rules-api</module>
-		<module>subprojects/rules-requesthandler</module>
-		<module>subprojects/rules-dataprovider</module>
+		<module>subprojects/rules-model</module>
+		<module>subprojects/rules-modelutils</module>
 		<module>subprojects/rules-engine</module>
 		<module>subprojects/rules-cache</module>
+		<module>subprojects/rules-dataprovider</module>
+		<module>subprojects/rules-mapreduce</module>
+		<module>subprojects/rules-api</module>
+		<module>subprojects/rules-requesthandler</module>
 		<module>subprojects/rules-ui</module>
 		<module>subprojects/rules-webframework</module>
 		<module>subprojects/rules-client</module>
