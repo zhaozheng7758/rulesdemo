@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="app"/>
+	<buildpathentry kind="src" path="test"/>
+	<buildpathentry kind="con" path="org.eclipse.dltk.mod.launching.INTERPRETER_CONTAINER"/>
+	<buildpathentry kind="con" path="org.eclipse.vjet.eclipse.core.JSNATIVE_CONTAINER/JS Native Types"/>
+	<buildpathentry kind="con" path="org.eclipse.vjet.eclipse.core.BROWSER_CONTAINER/Browser SDK"/>
+	<buildpathentry kind="lib" path="lib/hadoop-core-1.2.0.jar"/>
+	<buildpathentry external="true" kind="lib" path="/opt/play/play-2.1.1/repository/local/play/play_2.10/2.1.1/jars/play_2.10.jar"/>
+	<buildpathentry external="true" kind="lib" path="/opt/play/play-2.1.1/repository/local/org.specs2/specs2_2.10/1.13/jars/specs2_2.10.jar"/>
+</buildpath>

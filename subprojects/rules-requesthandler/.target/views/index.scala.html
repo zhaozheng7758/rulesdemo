@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="RuleApp">
+    <head>
+        <title></title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("bootstrap/css/bootstrap.min.css")" />
+        <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/ng-grid.min.css")" />
+        <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/main.css")" />
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")" />        
+    </head>
+    <body ng-controller="TradeCtrl">
+        <div class="ngGrid" style="pagebody" >
+        <h3>Rules Engine Demo</h3>
+        <hr class="titleHR"></hr>
+          <div class="bs-docs-example">
+            <ul class="nav nav-pills navbar">
+              <li class="dropdown">
+                <a class="dropdown-toggle" id="drop4" role="button" data-toggle="dropdown" href="#">Data <b class="caret"></b></a>
+                <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#" ng-click="generateTrades()">Generate Trades...</a></li>
+                  <li role="presentation" class="divider"></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#" ng-click="clearTrades()">Clear Trade Data</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" id="drop5" role="button" data-toggle="dropdown" href="#">Rules<b class="caret"></b></a>
+                <ul id="menu2" class="dropdown-menu" role="menu" aria-labelledby="drop5">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#" ng-click="fireRules()">Execute Eligibility Rules</a></li>
+                </ul>
+              </li>
+            </ul> <!-- /tabs -->
+            <hr class="navbar"></hr>
+            <h4>Trades</h4>
+          </div>
+          <div ng-grid="tradetable" class="well" ></div>
+            <h5>&nbsp;&nbsp;Rule Results</h5>
+            <div class"tradeDetail">&nbsp;&nbsp{{tradeSelection[0].params}}</div>
+          </div>
+        <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/angular-1.1.5/angular.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/angular-1.1.5/angular-resource.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/ng-grid-2.0.6.min.js")" type="text/javascript"></script>        
+        <script src="@routes.Assets.at("javascripts/ng-grid-flexible-height.js")" type="text/javascript"></script>        
+        <script src="@routes.Assets.at("bootstrap/js/bootstrap.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/main.js")" type="text/javascript"></script>
+    </body>
+</html>
